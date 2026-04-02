@@ -1,17 +1,116 @@
-# React + Vite
+# CoffeeHouse - Сайт кофейни
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![CoffeeHouse](https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=400&fit=crop)
 
-Currently, two official plugins are available:
+Современный, адаптивный веб-сайт для кофейни, разработанный на React и Vite. Сайт представляет информацию о кофейне, меню, контактные данные и форму обратной связи.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Особенности
 
-## React Compiler
+- ✨ **Современный дизайн** - элегантный интерфейс в кофейной тематике
+- 📱 **Адаптивная верстка** - корректное отображение на всех устройствах
+- 🚀 **Высокая производительность** - сборка на Vite
+- 🎨 **Плавные анимации** - при загрузке и наведении
+- 📝 **Форма обратной связи** - с валидацией данных
+- 🍽️ **Интерактивное меню** - с категориями и карточками товаров
+- 🔍 **Навигация** - плавная прокрутка к секциям
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Технологии
 
-## Expanding the ESLint configuration
+- **React 18** - библиотека для построения пользовательских интерфейсов
+- **Vite** - быстрый сборщик проектов
+- **CSS3** - стилизация без дополнительных библиотек
+- **Flexbox/Grid** - современные методы верстки
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-1312332321312
+## 📁 Структура проекта
+coffee-shop/
+├── index.html # Главный HTML файл
+├── package.json # Зависимости проекта
+├── vite.config.js # Конфигурация Vite
+├── src/
+│ ├── main.jsx # Точка входа приложения
+│ ├── App.jsx # Корневой компонент
+│ ├── App.css # Глобальные стили
+│ └── components/ # Компоненты React
+│ ├── Navbar.jsx # Навигационная панель
+│ ├── Hero.jsx # Главный баннер
+│ ├── Menu.jsx # Меню кофейни
+│ ├── About.jsx # Информация о нас
+│ ├── Contact.jsx # Контактная форма
+│ └── Footer.jsx # Подвал сайта
+
+text
+
+## 🚀 Установка и запуск
+
+### Требования
+- Node.js (версия 14 или выше)
+- npm (менеджер пакетов)
+
+### Пошаговая инструкция
+
+1. **Клонируйте репозиторий**
+```bash
+git clone <url-репозитория>
+cd coffee-shop
+Установите зависимости
+
+bash
+npm install
+Запустите проект в режиме разработки
+
+bash
+npm run dev
+Откройте браузер
+Перейдите по адресу http://localhost:5173
+
+Сборка для продакшена
+bash
+npm run build
+Собранные файлы будут находиться в папке dist
+
+Предпросмотр собранного проекта
+bash
+npm run preview
+📱 Адаптивность
+Сайт оптимизирован для следующих разрешений:
+
+📱 Мобильные устройства (320px - 768px)
+
+📲 Планшеты (768px - 1024px)
+
+💻 Десктопы (1024px и выше)
+
+🎨 Цветовая схема
+Основной цвет: #c7a17a (карамельный)
+
+Темный акцент: #4a2c2c (коричневый)
+
+Фон: #fef9f4 (кремовый)
+
+Текст: #2d2d2d (темно-серый)
+
+📄 Секции сайта
+Главный экран (Hero) - приветственный баннер с кнопкой перехода к меню
+
+Меню - карточки с кофе и десертами, изображениями и ценами
+
+О нас - история кофейни и преимущества
+
+Контакты - адрес, телефон, часы работы и форма обратной связи
+
+Подвал - дополнительная информация и ссылки
+
+🔧 Возможности для расширения
+Добавление новых позиций в меню
+
+👥 Автор
+Разработано с ❤️ для кофейни CoffeeHouse
+
+📞 Контакты
+По вопросам сотрудничества и разработки:
+
+Email: hello@coffeehouse.ru
+
+Телефон: +7 (495) 123-45-67
+
+CoffeeHouse - место, где кофе становится искусством ☕
