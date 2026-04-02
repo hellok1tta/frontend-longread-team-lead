@@ -116,6 +116,6 @@ npm run dev
 
 Корягина Виктория-[inoskekbn](https://github.com/inoskekbn)
 
-Дьяченко Елизавета-[lizzza](https://github.com/inoskekbn)
+Дьяченко Елизавета-[lizzza229](https://github.com/lizzza229)
 
 CoffeeHouse - место, где кофе становится искусством ☕
