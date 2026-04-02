@@ -23,22 +23,35 @@
 
 ## 📁 Структура проекта
 coffee-shop/
-├── index.html # Главный HTML файл
-├── package.json # Зависимости проекта
-├── vite.config.js # Конфигурация Vite
-├── src/
-│ ├── main.jsx # Точка входа приложения
-│ ├── App.jsx # Корневой компонент
-│ ├── App.css # Глобальные стили
-│ └── components/ # Компоненты React
-│ ├── Navbar.jsx # Навигационная панель
-│ ├── Hero.jsx # Главный баннер
-│ ├── Menu.jsx # Меню кофейни
-│ ├── About.jsx # Информация о нас
-│ ├── Contact.jsx # Контактная форма
-│ └── Footer.jsx # Подвал сайта
 
-text
+├── index.html # Главный HTML файл
+
+├── package.json # Зависимости проекта
+
+├── vite.config.js # Конфигурация Vite
+
+├── src/
+
+│ ├── main.jsx # Точка входа приложения
+
+│ ├── App.jsx # Корневой компонент
+
+│ ├── App.css # Глобальные стили
+
+
+│ └── components/ # Компоненты React
+
+│ ├── Navbar.jsx # Навигационная панель
+
+│ ├── Hero.jsx # Главный баннер
+
+│ ├── Menu.jsx # Меню кофейни
+
+│ ├── About.jsx # Информация о нас
+
+│ ├── Contact.jsx # Контактная форма
+
+│ └── Footer.jsx # Подвал сайта
 
 ## 🚀 Установка и запуск
 
@@ -49,28 +62,21 @@ text
 ### Пошаговая инструкция
 
 1. **Клонируйте репозиторий**
-```bash
-git clone <url-репозитория>
-cd coffee-shop
+```
+git clone https://github.com/hellok1tta/frontend-longread-team-lead.git
+```
 Установите зависимости
-
-bash
+```
 npm install
+```
 Запустите проект в режиме разработки
-
-bash
+```
 npm run dev
+```
 Откройте браузер
+```
 Перейдите по адресу http://localhost:5173
-
-Сборка для продакшена
-bash
-npm run build
-Собранные файлы будут находиться в папке dist
-
-Предпросмотр собранного проекта
-bash
-npm run preview
+```
 📱 Адаптивность
 Сайт оптимизирован для следующих разрешений:
 
@@ -104,13 +110,12 @@ npm run preview
 Добавление новых позиций в меню
 
 👥 Автор
-Разработано с ❤️ для кофейни CoffeeHouse
+Григорян Милена-[hellok1tta](https://github.com/hellok1tta)
 
-📞 Контакты
-По вопросам сотрудничества и разработки:
+Багомедова Сабина-[coryammm](https://github.com/coryammm)
 
-Email: hello@coffeehouse.ru
+Корягина Виктория-
 
-Телефон: +7 (495) 123-45-67
+Дьяченко Елизавета-
 
 CoffeeHouse - место, где кофе становится искусством ☕
