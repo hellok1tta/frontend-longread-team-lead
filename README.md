@@ -114,8 +114,8 @@ npm run dev
 
 Багомедова Сабина-[coryammm](https://github.com/coryammm)
 
-Корягина Виктория-
+Корягина Виктория-[inoskekbn](https://github.com/inoskekbn)
 
-Дьяченко Елизавета-
+Дьяченко Елизавета-[lizzza](https://github.com/inoskekbn)
 
 CoffeeHouse - место, где кофе становится искусством ☕
